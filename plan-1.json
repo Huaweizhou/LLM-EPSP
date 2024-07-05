@@ -1,0 +1,1830 @@
+[
+  {
+    "id": "666be9ec3ac1da5b551dee70",
+    "document": {
+      "simulation": {
+        "name": "霸王行动",
+        "complexity": "高",
+        "difficulty": "极难",
+        "description": "霸王行动是一次大规模的军事模拟，旨在测试盟军在多重战线、大规模两栖登陆和敌后空降作战中的协调与执行能力。",
+        "environment": "陆地与海岸",
+        "our_forces": "盟军联合部队",
+        "enemy_forces": "德军",
+        "tactical_simulation": [
+          {
+            "style": "两栖登陆",
+            
+            "detail": "在诺曼底海滩进行大规模两栖登陆作战"
+          },
+          {
+            "style": "空降作战",
+            
+            "detail": "在敌后进行空降作战，夺取战略要点"
+          },
+          {
+            "style": "地面攻势",
+            
+            "detail": "在诺曼底地区展开地面进攻，突破德军防线"
+          }
+        ]
+      },
+      "plan": {
+        "name": "霸王行动第一阶段",
+        "datetime": "1944-06-06",
+        "location": "诺曼底海滩",
+        "description": "本阶段旨在执行两栖登陆和空降作战任务，确保对德军防线的突破，为后续地面攻势奠定基础。环境为多云，温度15摄氏度，白天，适合登陆的海况。目标是诺曼底海滩，规模大，德军第七军和第十五军防守，任务是突破德军海滩防线，建立桥头堡，时间为1944年6月6日，地点在法国诺曼底。",
+        "expert_tag": [
+          "两栖作战专家",
+          "空降作战专家"
+        ],
+        "operation_type": [
+          "空空作战"
+        ],
+        "our_forces_detail": [
+          {
+            "group": "",
+            "unit": "",
+            "size": ""
+          }
+        ],
+        "enemy_forces_detail": [
+          {
+            "group": "",
+            "unit": "",
+            "size": ""
+          }
+        ],
+        "environment": {
+          "weather": "多云",
+          "temperature": "15摄氏度",
+          "day_night": "白天",
+          "target_state": "德军防线",
+          "sea_state": "适合登陆"
+        },
+        "target": {
+          "battle_target": "诺曼底海滩",
+          "target_size": "大规模",
+          "battle_group": "德军第七军和第十五军",
+          "damage_target": "突破德军海滩防线，建立桥头堡",
+          "loc_detail": "法国诺曼底",
+          "time": "1944-06-06"
+        },
+        "action": [
+          {
+            "name": "两栖登陆",
+            "description": "由美国第一军和英国第二军执行两栖登陆，突破德军在诺曼底海滩的防线，建立稳固的登陆场。"
+          },
+          {
+            "name": "空降作战",
+            "description": "由空降师在敌后进行空降作战，夺取关键桥梁和交通要点，切断德军增援路线。"
+          }
+        ]
+      },
+      "creator": "盟军司令部",
+      "updater": "盟军司令部",
+      "case_id": "666be9ec3ac1da5b551dee6f",
+      "create_time": "2024-06-14 14:57:48",
+      "update_time": "2024-06-14 14:57:48"
+    }
+  },
+  {
+    "id": "666be9ec3ac1da5b551dee71",
+    "document": {
+      "simulation": {
+        "name": "诺曼底行动",
+        "complexity": "高",
+        "difficulty": "极难",
+        "description": "诺曼底行动是一次全面的军事模拟，旨在评估盟军在联合多国部队、大规模两栖登陆和复杂地面作战中的协同作战能力。",
+        "environment": "海岸与内陆",
+        "our_forces": "盟军联合部队",
+        "enemy_forces": "德军",
+        "tactical_simulation": [
+          {
+            "style": "联合登陆",
+            
+            "detail": "在诺曼底五个主要海滩进行联合两栖登陆作战"
+          },
+          {
+            "style": "空中支援",
+            
+            "detail": "通过空中力量提供火力支援和空降部队"
+          },
+          {
+            "style": "地面推进",
+            
+            "detail": "在登陆成功后向内陆推进，攻占关键城市和交通枢纽"
+          }
+        ]
+      },
+      "plan": {
+        "name": "诺曼底行动第一阶段",
+        "datetime": "1944-06-06",
+        "location": "诺曼底，法国",
+        "description": "本阶段旨在通过大规模两栖登陆和空降作战，建立坚实的登陆场，并为后续的内陆推进奠定基础。环境为多云，温度15摄氏度，清晨，适宜登陆的海况。目标是诺曼底海滩，规模大，德军第七军和第十五军防守，任务是突破并占领海滩防线，确保后续部队安全登陆，时间为1944年6月6日，地点在法国诺曼底地区。",
+        "expert_tag": [
+          "两栖作战专家",
+          "空降作战专家"
+        ],
+        "operation_type": [],
+        "our_forces_detail": [
+          {
+            "group": "",
+            "unit": "",
+            "size": ""
+          }
+        ],
+        "enemy_forces_detail": [
+          {
+            "group": "",
+            "unit": "",
+            "size": ""
+          }
+        ],
+        "environment": {
+          "weather": "多云",
+          "temperature": "15摄氏度",
+          "day_night": "清晨",
+          "target_state": "德军沿海防线",
+          "sea_state": "适宜登陆"
+        },
+        "target": {
+          "battle_target": "诺曼底海滩",
+          "target_size": "大规模",
+          "battle_group": "德军第七军和第十五军",
+          "damage_target": "突破并占领海滩防线，确保后续部队安全登陆",
+          "loc_detail": "法国诺曼底地区",
+          "time": "1944-06-06"
+        },
+        "action": [
+          {
+            "name": "联合两栖登陆",
+            "description": "由美国第一军和英国第二军在诺曼底海滩进行联合两栖登陆，突破德军防线并建立稳固的登陆场。"
+          },
+          {
+            "name": "空降支援",
+            "description": "空降部队在海滩后方进行空降作战，控制关键桥梁和交通要点，支援两栖登陆部队。"
+          }
+        ]
+      },
+      "creator": "盟军司令部",
+      "updater": "盟军司令部",
+      "case_id": "666be9ec3ac1da5b551dee5e",
+      "create_time": "2024-06-14 14:57:48",
+      "update_time": "2024-06-14 14:57:48"
+    }
+  },
+  {
+    "id": "666be9ec3ac1da5b551dee72",
+    "document": {
+      "simulation": {
+        "name": "库尔斯克会战",
+        "complexity": "高",
+        "difficulty": "极难",
+        "description": "库尔斯克会战是第二次世界大战中规模最大的一次坦克战役，也是人类历史上最大的一次会战之一。战役发生在1943年7月5日至8月23日，地点位于苏联库尔斯克地区。德军在失败于斯大林格勒战役后，企图通过此次进攻重新夺取战略主动权，发动了代号为“堡垒行动”的攻势。苏联红军早已得知德军的计划，并在库尔斯克突出部建立了坚固的防御阵地。战役期间，双方共投入了数百万兵力和数千辆坦克，这场会战最终以苏联红军的胜利告终，标志着德军在东线战场上攻势的终结。",
+        "environment": "农村与城镇",
+        "our_forces": "苏联红军",
+        "enemy_forces": "德军",
+        "tactical_simulation": [
+          {
+            "style": "防御战",
+            
+            "detail": "在库尔斯克突出部建立坚固的防御阵地，抵御德军的进攻"
+          },
+          {
+            "style": "反攻战",
+            
+            "detail": "在防御成功后发动反攻，夺回失地并推进到有利的战略位置"
+          },
+          {
+            "style": "坦克战",
+            
+            "detail": "利用坦克和机械化部队进行大规模地面战斗"
+          }
+        ]
+      },
+      "plan": {
+        "name": "库尔斯克会战第一阶段",
+        "datetime": "1943-07-05",
+        "location": "库尔斯克突出部",
+        "description": "初期阶段旨在通过坚守阵地，击退德军的“堡垒行动”攻势，确保防线稳固。环境为晴朗，温度25摄氏度，白天，平原与丘陵地形。目标是库尔斯克突出部，规模大，德军中央集团军群和南方集团军群进攻，任务是阻止德军突破防线，消耗其有生力量，时间为1943年7月5日，地点在苏联库尔斯克地区。",
+        "expert_tag": [
+          "防御作战专家",
+          "坦克战专家"
+        ],
+        "operation_type": [],
+        "our_forces_detail": [
+          {
+            "group": "",
+            "unit": "",
+            "size": ""
+          }
+        ],
+        "enemy_forces_detail": [
+          {
+            "group": "",
+            "unit": "",
+            "size": ""
+          }
+        ],
+        "environment": {
+          "weather": "晴朗",
+          "temperature": "25摄氏度",
+          "day_night": "白天",
+          "target_state": "德军进攻部队",
+          "sea_state": "平原与丘陵"
+        },
+        "target": {
+          "battle_target": "库尔斯克突出部",
+          "target_size": "大规模",
+          "battle_group": "德军中央集团军群和南方集团军群",
+          "damage_target": "阻止德军突破防线，消耗其有生力量",
+          "loc_detail": "苏联库尔斯克地区",
+          "time": "1943-07-05"
+        },
+        "action": [
+          {
+            "name": "防御作战",
+            "description": "苏联红军中央方面军和草原方面军在库尔斯克突出部坚守阵地，阻止德军突破。"
+          },
+          {
+            "name": "反坦克战斗",
+            "description": "利用反坦克武器和预设阵地摧毁德军坦克，削弱其装甲部队。"
+          }
+        ]
+      },
+      "creator": "苏联红军总司令部",
+      "updater": "苏联红军总司令部",
+      "case_id": "666be9ec3ac1da5b551dee68",
+      "create_time": "2024-06-14 14:57:48",
+      "update_time": "2024-06-14 14:57:48"
+    }
+  },
+  {
+    "id": "666be9ec3ac1da5b551dee73",
+    "document": {
+      "simulation": {
+        "name": "中东战争",
+        "complexity": "中",
+        "difficulty": "高",
+        "description": "中东战争，尤其是指1967年6月5日至6月10日爆发的第三次中东战争，又称六日战争。这场战争由以色列对埃及、叙利亚和约旦的联合军队发动，是冷战期间最为著名的军事冲突之一。以色列与周边阿拉伯国家长期存在的领土争端和民族矛盾是战争的根本原因。战争爆发前，地区局势紧张，埃及总统纳赛尔关闭了苏伊士运河，并要求联合国撤出驻扎在西奈半岛的维和部队，这些都促成了战争的爆发。",
+        "environment": "沙漠与城市",
+        "our_forces": "以色列国防军",
+        "enemy_forces": "阿拉伯联合军",
+        "tactical_simulation": [
+          {
+            "style": "空袭",
+            
+            "detail": "以色列空军进行先发制人的空袭，摧毁埃及空军基础设施"
+          },
+          {
+            "style": "地面进攻",
+            
+            "detail": "以色列地面部队迅速推进，占领西奈半岛和戈兰高地"
+          },
+          {
+            "style": "城市战",
+            
+            "detail": "以色列部队控制耶路撒冷，确保其安全和统一"
+          }
+        ]
+      },
+      "plan": {
+        "name": "中东战争第一阶段",
+        "datetime": "1967-06-05",
+        "location": "以色列及其周边地区",
+        "description": "初期阶段通过预防性打击摧毁埃及空军，确保制空权，并迅速推进占领战略区域。环境为晴朗，温度30摄氏度，白天，沙漠与城市地形。目标是埃及空军基地，规模大，埃及军队防守，任务是摧毁埃及空军设施，确保空中优势，时间为1967年6月5日，地点在埃及。",
+        "expert_tag": [
+          "空战专家",
+          "地面战专家"
+        ],
+        "operation_type": [],
+        "our_forces_detail": [
+          {
+            "group": "",
+            "unit": "",
+            "size": ""
+          }
+        ],
+        "enemy_forces_detail": [
+          {
+            "group": "",
+            "unit": "",
+            "size": ""
+          }
+        ],
+        "environment": {
+          "weather": "晴朗",
+          "temperature": "30摄氏度",
+          "day_night": "白天",
+          "target_state": "阿拉伯联合军",
+          "sea_state": "沙漠与城市"
+        },
+        "target": {
+          "battle_target": "埃及空军基地",
+          "target_size": "大规模",
+          "battle_group": "埃及军队",
+          "damage_target": "摧毁埃及空军设施，确保空中优势",
+          "loc_detail": "埃及",
+          "time": "1967-06-05"
+        },
+        "action": [
+          {
+            "name": "空袭作战",
+            "description": "以色列空军对埃及空军基地展开预防性空袭，摧毁其空军力量。"
+          },
+          {
+            "name": "地面推进",
+            "description": "以色列南方指挥部迅速推进，占领西奈半岛，北方指挥部控制戈兰高地。"
+          }
+        ]
+      },
+      "creator": "以色列国防部",
+      "case_id": "666be9ec3ac1da5b551dee63",
+      "create_time": "2024-06-14 14:57:48",
+      "update_time": "2024-06-14 14:57:48",
+      "updater": "以色列国防部"
+    }
+  },
+  {
+    "id": "666be9ec3ac1da5b551dee74",
+    "document": {
+      "simulation": {
+        "name": "海湾战争",
+        "complexity": "高",
+        "difficulty": "极难",
+        "description": "海湾战争，亦称第一次海湾战争，发生于1991年，是由联合国授权、多国部队对伊拉克入侵科威特的军事干预。战争的导火索是1990年8月2日伊拉克对科威特的入侵和占领，随后联合国安理会通过多项决议，要求伊拉克撤军。1991年1月17日，多国部队发起“沙漠风暴”行动，对伊拉克进行大规模空袭，2月24日开始地面进攻，2月28日宣告胜利。这场战争展示了现代军事科技的力量和多国合作的效果。",
+        "environment": "沙漠与城市",
+        "our_forces": "多国部队",
+        "enemy_forces": "伊拉克军队",
+        "tactical_simulation": [
+          {
+            "style": "空袭",
+            
+            "detail": "多国部队空军进行大规模空袭，摧毁伊拉克的指挥和控制设施及其空军力量"
+          },
+          {
+            "style": "地面进攻",
+            
+            "detail": "多国部队地面部队进行快速推进，将伊拉克军队驱逐出科威特"
+          },
+          {
+            "style": "后勤保障",
+            
+            "detail": "确保部队的后勤供应和连续作战能力"
+          }
+        ]
+      },
+      "plan": {
+        "name": "海湾战争第一阶段",
+        "datetime": "1991-01-17",
+        "location": "伊拉克和科威特",
+        "description": "初期阶段通过“沙漠风暴”行动进行大规模空袭，削弱伊拉克的军事能力，并为地面进攻做准备。环境为晴朗，温度20-25摄氏度，白天，沙漠与城市地形。目标是伊拉克军事设施和部队，规模大，伊拉克共和国卫队和第三军防守，任务是摧毁伊拉克的指挥和控制设施及其空军力量，时间为1991年1月17日，地点在伊拉克境内。",
+        "expert_tag": [
+          "空战专家",
+          "战术规划专家"
+        ],
+        "operation_type": [],
+        "our_forces_detail": [
+          {
+            "group": "",
+            "unit": "",
+            "size": ""
+          }
+        ],
+        "enemy_forces_detail": [
+          {
+            "group": "",
+            "unit": "",
+            "size": ""
+          }
+        ],
+        "environment": {
+          "weather": "晴朗",
+          "temperature": "20-25摄氏度",
+          "day_night": "白天",
+          "target_state": "伊拉克军队",
+          "sea_state": "沙漠与城市"
+        },
+        "target": {
+          "battle_target": "伊拉克军事设施和部队",
+          "target_size": "大规模",
+          "battle_group": "伊拉克共和国卫队和第三军",
+          "damage_target": "摧毁伊拉克的指挥和控制设施及其空军力量",
+          "loc_detail": "伊拉克境内",
+          "time": "1991-01-17"
+        },
+        "action": [
+          {
+            "name": "空袭作战",
+            "description": "多国部队空军对伊拉克进行大规模空袭，摧毁其空军基地、指挥中心和防空设施。"
+          },
+          {
+            "name": "地面准备",
+            "description": "多国部队地面部队集结，准备在空袭后发动地面进攻。"
+          }
+        ]
+      },
+      "creator": "美国国防部",
+      "case_id": "666be9ec3ac1da5b551dee5f",
+      "create_time": "2024-06-14 14:57:48",
+      "update_time": "2024-06-14 14:57:48",
+      "updater": "美国国防部"
+    }
+  },
+  {
+    "id": "666be9ec3ac1da5b551dee75",
+    "document": {
+      "simulation": {
+        "name": "阿富汗战争",
+        "complexity": "高",
+        "difficulty": "极难",
+        "description": "阿富汗战争，亦称反恐战争，始于2001年，是由美国主导的军事干预行动，目的是推翻塔利班政权并摧毁恐怖组织基地组织。战争的导火索是2001年9月11日发生的恐怖袭击事件，美国随后要求塔利班交出基地组织领导人本·拉登，但遭到拒绝。2001年10月7日，美军及其盟友发起“持久自由”行动，对阿富汗进行空袭，并派遣地面部队，迅速推翻了塔利班政权。这场战争标志着全球反恐战争的开始，对国际政治和军事格局产生了深远影响。",
+        "environment": "山地与城市",
+        "our_forces": "北约联军",
+        "enemy_forces": "塔利班",
+        "tactical_simulation": [
+          {
+            "style": "空袭",
+            
+            "detail": "北约空军对塔利班据点进行精准空袭，摧毁其指挥和控制设施"
+          },
+          {
+            "style": "地面突击",
+            
+            "detail": "北约地面部队迅速推进，攻占塔利班控制区"
+          },
+          {
+            "style": "特种部队行动",
+            
+            "detail": "特种部队进行斩首行动，消灭塔利班和基地组织的核心领导层"
+          },
+          {
+            "style": "后勤保障",
+            
+            "detail": "确保部队的后勤供应和连续作战能力"
+          }
+        ]
+      },
+      "plan": {
+        "name": "阿富汗战争第一阶段",
+        "datetime": "2001-10-07",
+        "location": "阿富汗",
+        "description": "初期阶段通过“持久自由”行动进行大规模空袭，削弱塔利班的军事能力，并为地面进攻做准备。作战环境为晴朗天气，气温在15-20摄氏度之间，行动在白天进行，目标为阿富汗境内的塔利班和基地组织的军事设施和人员。任务目标是摧毁塔利班和基地组织的指挥和控制设施，消灭其核心成员。这一阶段的主要行动包括北约空军对塔利班和基地组织据点的精准空袭，以及北约地面部队的集结准备，为后续的地面进攻奠定基础。",
+        "expert_tag": [
+          "空战专家",
+          "反恐专家"
+        ],
+        "operation_type": [],
+        "our_forces_detail": [
+          {
+            "group": "",
+            "unit": "",
+            "size": ""
+          }
+        ],
+        "enemy_forces_detail": [
+          {
+            "group": "",
+            "unit": "",
+            "size": ""
+          }
+        ],
+        "environment": {
+          "weather": "晴朗",
+          "temperature": "15-20摄氏度",
+          "day_night": "白天",
+          "target_state": "塔利班",
+          "sea_state": "山地与城市"
+        },
+        "target": {
+          "battle_target": "塔利班和基地组织的军事设施和人员",
+          "target_size": "中等规模",
+          "battle_group": "塔利班武装和基地组织部队",
+          "damage_target": "摧毁塔利班和基地组织的指挥和控制设施，消灭其核心成员",
+          "loc_detail": "阿富汗境内",
+          "time": "2001-10-07"
+        },
+        "action": [
+          {
+            "name": "空袭作战",
+            "description": "北约空军对塔利班和基地组织的据点进行精准空袭，摧毁其指挥中心和防空设施。"
+          },
+          {
+            "name": "地面准备",
+            "description": "北约地面部队集结，准备在空袭后发动地面进攻。"
+          }
+        ]
+      },
+      "creator": "美国中央司令部",
+      "case_id": "666be9ec3ac1da5b551dee67",
+      "create_time": "2024-06-14 14:57:48",
+      "update_time": "2024-06-14 14:57:48",
+      "updater": "美国中央司令部"
+    }
+  },
+  {
+    "id": "666be9ec3ac1da5b551dee76",
+    "document": {
+      "simulation": {
+        "name": "伊拉克战争",
+        "complexity": "高",
+        "difficulty": "极难",
+        "description": "伊拉克战争，亦称第二次海湾战争，始于2003年，由美国主导的多国部队对伊拉克发动军事行动。战争的导火索是对伊拉克拥有大规模杀伤性武器的指控，以及对萨达姆政权支持恐怖主义的担忧。2002年，美国总统乔治·W·布什提出“邪恶轴心”理论，将伊拉克列为主要威胁之一。2003年3月20日，多国部队开始对伊拉克进行空袭，随后发动地面进攻，迅速推翻了萨达姆政权。战争的后续阶段集中在重建伊拉克、打击反叛武装和建立民主政府。",
+        "environment": "沙漠与城市",
+        "our_forces": "联盟军",
+        "enemy_forces": "伊拉克军队",
+        "tactical_simulation": [
+          {
+            "style": "空袭",
+            
+            "detail": "联盟空军对伊拉克军事设施进行大规模空袭，削弱其防空和指挥能力"
+          },
+          {
+            "style": "地面进攻",
+            
+            "detail": "联盟地面部队迅速推进，占领关键城市和军事基地"
+          },
+          {
+            "style": "特种部队行动",
+            
+            "detail": "特种部队进行定点清除任务，捕获或消灭萨达姆政权的核心成员"
+          },
+          {
+            "style": "后勤保障",
+            
+            "detail": "确保部队的后勤供应和连续作战能力"
+          }
+        ]
+      },
+      "plan": {
+        "name": "伊拉克战争第一阶段",
+        "datetime": "2003-03-20",
+        "location": "伊拉克",
+        "description": "初期阶段通过大规模空袭削弱伊拉克的军事能力，并为地面进攻做准备。作战环境为晴朗天气，气温在25-30摄氏度之间，行动在白天进行，目标为伊拉克境内的军事设施和部队。任务目标是摧毁伊拉克的防空系统和指挥控制设施，削弱其军事力量。这一阶段的主要行动包括联盟空军对伊拉克军事设施的大规模空袭，以及联盟地面部队的集结准备，为后续的地面进攻奠定基础。",
+        "expert_tag": [
+          "空战专家",
+          "地面战斗专家"
+        ],
+        "operation_type": [
+          "反潜作战"
+        ],
+        "our_forces_detail": [
+          {
+            "group": "",
+            "unit": "",
+            "size": ""
+          }
+        ],
+        "enemy_forces_detail": [
+          {
+            "group": "",
+            "unit": "",
+            "size": ""
+          }
+        ],
+        "environment": {
+          "weather": "晴朗",
+          "temperature": "25-30摄氏度",
+          "day_night": "白天",
+          "target_state": "伊拉克军队",
+          "sea_state": "沙漠与城市"
+        },
+        "target": {
+          "battle_target": "伊拉克的军事设施和部队",
+          "target_size": "大规模",
+          "battle_group": "伊拉克共和国卫队和巴格达师",
+          "damage_target": "摧毁伊拉克的防空系统和指挥控制设施，削弱其军事力量",
+          "loc_detail": "伊拉克境内",
+          "time": "2003-03-20"
+        },
+        "action": [
+          {
+            "name": "空袭作战",
+            "description": "联盟空军对伊拉克的军事设施进行大规模空袭，摧毁其防空系统和指挥控制设施。"
+          },
+          {
+            "name": "地面准备",
+            "description": "联盟地面部队集结，准备在空袭后发动地面进攻。"
+          }
+        ]
+      },
+      "creator": "美国国防部",
+      "case_id": "666be9ec3ac1da5b551dee67",
+      "create_time": "2024-06-14 14:57:48",
+      "update_time": "2024-06-14 14:57:48",
+      "updater": "美国国防部"
+    }
+  },
+  {
+    "id": "666be9ec3ac1da5b551dee77",
+    "document": {
+      "simulation": {
+        "name": "盟军雷霆",
+        "complexity": "高",
+        "difficulty": "非常困难",
+        "description": "盟军雷霆行动是一场模拟1999年科索沃战争的军事演习，旨在测试北约联军在空袭和地面作战中的协调能力和作战效率。",
+        "environment": "陆空联合",
+        "our_forces": "北约联军",
+        "enemy_forces": "南斯拉夫军队",
+        "tactical_simulation": [
+          {
+            "style": "空袭",
+            
+            "detail": "对敌方关键军事设施进行空中打击"
+          },
+          {
+            "style": "防空",
+            
+            "detail": "保护北约空中力量免受敌方防空火力打击"
+          },
+          {
+            "style": "地面作战",
+            
+            "detail": "北约地面部队与南斯拉夫军队的交战"
+          }
+        ]
+      },
+      "plan": {
+        "name": "盟军雷霆行动第一阶段",
+        "datetime": "2024-04-18",
+        "location": "科索沃地区",
+        "description": "本阶段旨在通过空袭和地面作战，迫使南斯拉夫军队撤出科索沃，确保科索沃地区的和平与稳定。作战环境为晴朗天气，气温在15摄氏度左右，行动在白天进行，目标为敌方控制区内的南斯拉夫军队阵地。任务目标是摧毁敌方防御设施，特别是位于科索沃首府普里什蒂纳的主要防御阵地。这一阶段的主要行动包括由北约空军对南斯拉夫军队的主要军事设施进行大规模空袭，摧毁敌方的防空系统和指挥中心，以及北约地面部队在空袭后对敌方阵地发起全面进攻，夺取关键战略位置。",
+        "expert_tag": [
+          "空战专家",
+          "地面战斗专家"
+        ],
+        "operation_type": [],
+        "our_forces_detail": [
+          {
+            "group": "",
+            "unit": "",
+            "size": ""
+          }
+        ],
+        "enemy_forces_detail": [
+          {
+            "group": "",
+            "unit": "",
+            "size": ""
+          }
+        ],
+        "environment": {
+          "weather": "晴朗",
+          "temperature": "15摄氏度",
+          "day_night": "白天",
+          "target_state": "敌方控制区",
+          "sea_state": "无"
+        },
+        "target": {
+          "battle_target": "南斯拉夫军队阵地",
+          "target_size": "大型规模",
+          "battle_group": "南斯拉夫第三军",
+          "damage_target": "摧毁敌方防御设施",
+          "loc_detail": "科索沃首府普里什蒂纳",
+          "time": "2024-04-19"
+        },
+        "action": [
+          {
+            "name": "空袭",
+            "description": "由北约空军对南斯拉夫军队的主要军事设施进行大规模空袭，摧毁敌方的防空系统和指挥中心。"
+          },
+          {
+            "name": "地面进攻",
+            "description": "北约地面部队在空袭后对敌方阵地发起全面进攻，夺取关键战略位置。"
+          }
+        ]
+      },
+      "creator": "北约司令部",
+      "updater": "北约司令部",
+      "case_id": "666be9ec3ac1da5b551dee62",
+      "create_time": "2024-06-14 14:57:48",
+      "update_time": "2024-06-14 14:57:48"
+    }
+  },
+  {
+    "id": "666be9ec3ac1da5b551dee78",
+    "document": {
+      "simulation": {
+        "name": "复仇之矛",
+        "complexity": "高",
+        "difficulty": "非常困难",
+        "description": "复仇之矛行动是一场模拟1982年福克兰战争的军事演习，旨在测试英军在远程海空联合作战中的战斗能力和战略部署。",
+        "environment": "海岛与海空联合",
+        "our_forces": "英军",
+        "enemy_forces": "阿根廷军队",
+        "tactical_simulation": [
+          {
+            "style": "两栖登陆",
+            
+            "detail": "海军陆战队在敌方控制的海岛进行两栖登陆"
+          },
+          {
+            "style": "海战",
+            
+            "detail": "与敌方海军舰队的交战，确保制海权"
+          },
+          {
+            "style": "空战",
+            
+            "detail": "空军打击敌方地面目标并提供空中掩护"
+          }
+        ]
+      },
+      "plan": {
+        "name": "复仇之矛行动第一阶段",
+        "datetime": "2024-04-18",
+        "location": "福克兰群岛",
+        "description": "本阶段旨在通过两栖登陆和空中打击，收复福克兰群岛的关键位置，驱逐阿根廷军队。作战环境为多云天气，气温在10摄氏度左右，行动在白天进行，目标为敌方控制区内的福克兰群岛主要据点，特别是斯坦利港。任务目标是摧毁敌方防御设施并控制关键位置。这一阶段的主要行动包括由海军陆战队执行两栖登陆，突袭斯坦利港，摧毁敌方防御工事，夺取港口控制权，以及空军对敌方地面目标进行精确打击，提供空中支援并压制敌方防空力量。",
+        "expert_tag": [
+          "两栖作战专家",
+          "空战专家"
+        ],
+        "operation_type": [],
+        "our_forces_detail": [
+          {
+            "group": "",
+            "unit": "",
+            "size": ""
+          }
+        ],
+        "enemy_forces_detail": [
+          {
+            "group": "",
+            "unit": "",
+            "size": ""
+          }
+        ],
+        "environment": {
+          "weather": "多云",
+          "temperature": "10摄氏度",
+          "day_night": "白天",
+          "target_state": "敌方控制区",
+          "sea_state": "中等"
+        },
+        "target": {
+          "battle_target": "福克兰群岛主要据点",
+          "target_size": "大型规模",
+          "battle_group": "阿根廷第10旅",
+          "damage_target": "摧毁敌方防御设施并控制关键位置",
+          "loc_detail": "斯坦利港",
+          "time": "2024-04-19"
+        },
+        "action": [
+          {
+            "name": "两栖登陆",
+            "description": "由海军陆战队执行两栖登陆，突袭斯坦利港，摧毁敌方防御工事，夺取港口控制权。"
+          },
+          {
+            "name": "空中打击",
+            "description": "空军对敌方地面目标进行精确打击，提供空中支援并压制敌方防空力量。"
+          }
+        ]
+      },
+      "creator": "英国国防部",
+      "case_id": "666be9ec3ac1da5b551dee68",
+      "create_time": "2024-06-14 14:57:48",
+      "update_time": "2024-06-14 14:57:48",
+      "updater": "英国国防部"
+    }
+  },
+  {
+    "id": "666be9ec3ac1da5b551dee79",
+    "document": {
+      "simulation": {
+        "name": "寒冬风暴",
+        "complexity": "高",
+        "difficulty": "非常困难",
+        "description": "寒冬风暴行动是一场模拟1950年朝鲜战争的军事演习，旨在测试联合国军在多国联合行动中的协调能力和战斗力。",
+        "environment": "山地与平原",
+        "our_forces": "联合国军",
+        "enemy_forces": "北朝鲜军队和中国志愿军",
+        "tactical_simulation": [
+          {
+            "style": "地面战",
+            
+            "detail": "在复杂地形中的大规模地面战斗"
+          },
+          {
+            "style": "空中支援",
+            
+            "detail": "提供空中打击和空中支援，保护地面部队"
+          },
+          {
+            "style": "联合行动",
+            
+            "detail": "多国部队的协调作战与后勤保障"
+          }
+        ]
+      },
+      "plan": {
+        "name": "寒冬风暴行动第一阶段",
+        "datetime": "2024-04-18",
+        "location": "朝鲜半岛",
+        "description": "本阶段旨在通过联合国军的联合行动，阻止北朝鲜军队的进攻，收复失地，稳定战线。作战环境为寒冷天气，气温在-10摄氏度左右，行动在白天进行，目标为敌方控制区内的北朝鲜和中国志愿军阵地，特别是首尔以北的区域。任务目标是摧毁敌方防御设施并稳定前线。这一阶段的主要行动包括由联合国军地面部队对北朝鲜和中国志愿军阵地发起全面反击，夺回关键位置，以及空军对敌方防御设施进行精确打击，并提供空中支援，压制敌方火力。",
+        "expert_tag": [
+          "地面战专家",
+          "空中支援专家"
+        ],
+        "operation_type": [],
+        "our_forces_detail": [
+          {
+            "group": "",
+            "unit": "",
+            "size": ""
+          }
+        ],
+        "enemy_forces_detail": [
+          {
+            "group": "",
+            "unit": "",
+            "size": ""
+          }
+        ],
+        "environment": {
+          "weather": "寒冷",
+          "temperature": "-10摄氏度",
+          "day_night": "白天",
+          "target_state": "敌方控制区",
+          "sea_state": "无"
+        },
+        "target": {
+          "battle_target": "北朝鲜和中国志愿军阵地",
+          "target_size": "大型规模",
+          "battle_group": "北朝鲜第2军和中国志愿军第9兵团",
+          "damage_target": "摧毁敌方防御设施并稳定前线",
+          "loc_detail": "首尔以北",
+          "time": "2024-04-19"
+        },
+        "action": [
+          {
+            "name": "地面反击",
+            "description": "由联合国军地面部队对北朝鲜和中国志愿军阵地发起全面反击，夺回关键位置。"
+          },
+          {
+            "name": "空中支援",
+            "description": "空军对敌方防御设施进行精确打击，并提供空中支援，压制敌方火力。"
+          }
+        ]
+      },
+      "creator": "联合国军司令部",
+      "case_id": "666be9ec3ac1da5b551dee61",
+      "create_time": "2024-06-14 14:57:48",
+      "update_time": "2024-06-14 14:57:48",
+      "updater": "联合国军司令部"
+    }
+  },
+  {
+    "id": "666be9ec3ac1da5b551dee7a",
+    "document": {
+      "simulation": {
+        "name": "持久自由",
+        "complexity": "高",
+        "difficulty": "非常困难",
+        "description": "持久自由行动是一场模拟1950年朝鲜战争初期的关键战役，旨在测试联合国军在多国联合行动中的协调能力和应对大规模地面攻势的战斗力。",
+        "environment": "山地与城市",
+        "our_forces": "联合国军",
+        "enemy_forces": "北朝鲜军队和中国志愿军",
+        "tactical_simulation": [
+          {
+            "style": "地面战",
+            
+            "detail": "大规模地面攻防战斗，涉及复杂地形"
+          },
+          {
+            "style": "空中支援",
+            
+            "detail": "提供空中打击和空中支援，保护地面部队"
+          },
+          {
+            "style": "联合行动",
+            
+            "detail": "多国部队的协调作战与后勤保障"
+          }
+        ]
+      },
+      "plan": {
+        "name": "持久自由行动第一阶段",
+        "datetime": "2024-04-18",
+        "location": "朝鲜半岛",
+        "description": "本阶段旨在通过联合国军的联合行动，阻止北朝鲜军队的进攻，收复失地，稳定战线。作战环境为寒冷天气，气温在-10摄氏度左右，行动在白天进行，目标为敌方控制区内的北朝鲜和中国志愿军阵地，特别是首尔以北的区域。任务目标是摧毁敌方防御设施并稳定前线。这一阶段的主要行动包括由联合国军地面部队对北朝鲜和中国志愿军阵地发起全面反击，夺回关键位置，以及空军对敌方防御设施进行精确打击，并提供空中支援，压制敌方火力。",
+        "expert_tag": [
+          "地面战专家",
+          "空中支援专家"
+        ],
+        "operation_type": [],
+        "our_forces_detail": [
+          {
+            "group": "",
+            "unit": "",
+            "size": ""
+          }
+        ],
+        "enemy_forces_detail": [
+          {
+            "group": "",
+            "unit": "",
+            "size": ""
+          }
+        ],
+        "environment": {
+          "weather": "寒冷",
+          "temperature": "-10摄氏度",
+          "day_night": "白天",
+          "target_state": "敌方控制区",
+          "sea_state": "无"
+        },
+        "target": {
+          "battle_target": "北朝鲜和中国志愿军阵地",
+          "target_size": "大型规模",
+          "battle_group": "北朝鲜第2军和中国志愿军第9兵团",
+          "damage_target": "摧毁敌方防御设施并稳定前线",
+          "loc_detail": "首尔以北",
+          "time": "2024-04-19"
+        },
+        "action": [
+          {
+            "name": "地面反击",
+            "description": "由联合国军地面部队对北朝鲜和中国志愿军阵地发起全面反击，夺回关键位置。"
+          },
+          {
+            "name": "空中支援",
+            "description": "空军对敌方防御设施进行精确打击，并提供空中支援，压制敌方火力。"
+          }
+        ]
+      },
+      "creator": "联合国军司令部",
+      "case_id": "666be9ec3ac1da5b551dee6d",
+      "create_time": "2024-06-14 14:57:48",
+      "update_time": "2024-06-14 14:57:48",
+      "updater": "联合国军司令部"
+    }
+  },
+  {
+    "id": "666be9ec3ac1da5b551dee7b",
+    "document": {
+      "simulation": {
+        "name": "持久决心",
+        "complexity": "高",
+        "difficulty": "非常困难",
+        "description": "持久决心行动是一场模拟1968年越南战争春节攻势的军事演习，旨在测试美军及其盟友应对大规模突袭和城市战斗的能力。",
+        "environment": "城市与丛林",
+        "our_forces": "美军与南越军队",
+        "enemy_forces": "北越军队和越共",
+        "tactical_simulation": [
+          {
+            "style": "城市战",
+            
+            "detail": "在城市环境中与敌方进行激烈交战"
+          },
+          {
+            "style": "丛林战",
+            
+            "detail": "在复杂的丛林环境中进行游击战和反游击战"
+          },
+          {
+            "style": "空中支援",
+            
+            "detail": "提供空中打击和空中支援，保护地面部队"
+          }
+        ]
+      },
+      "plan": {
+        "name": "持久决心行动第一阶段",
+        "datetime": "2024-04-18",
+        "location": "南越",
+        "description": "本阶段旨在通过美军和南越军队的联合行动，击退北越和越共的进攻，保护南越主要城市和军事基地。作战环境为炎热天气，气温在30摄氏度左右，行动在白天进行，目标为敌方控制区内的南越主要城市和军事基地，特别是西贡及其周边区域。任务目标是摧毁敌方指挥中心和补给线，确保城市安全。这一阶段的主要行动包括由美军和南越军队在城市内建立防线，阻止敌方进攻，并逐步清除敌方潜伏力量，以及空军对敌方指挥中心和补给线进行精确打击，并提供空中支援，压制敌方火力。",
+        "expert_tag": [
+          "城市战专家",
+          "空中支援专家"
+        ],
+        "operation_type": [],
+        "our_forces_detail": [
+          {
+            "group": "",
+            "unit": "",
+            "size": ""
+          }
+        ],
+        "enemy_forces_detail": [
+          {
+            "group": "",
+            "unit": "",
+            "size": ""
+          }
+        ],
+        "environment": {
+          "weather": "炎热",
+          "temperature": "30摄氏度",
+          "day_night": "白天",
+          "target_state": "敌方控制区",
+          "sea_state": "无"
+        },
+        "target": {
+          "battle_target": "南越主要城市和军事基地",
+          "target_size": "大型规模",
+          "battle_group": "北越第2军和越共第5师",
+          "damage_target": "摧毁敌方指挥中心和补给线，确保城市安全",
+          "loc_detail": "西贡及周边",
+          "time": "2024-04-19"
+        },
+        "action": [
+          {
+            "name": "城市防御",
+            "description": "由美军和南越军队在城市内建立防线，阻止敌方进攻，并逐步清除敌方潜伏力量。"
+          },
+          {
+            "name": "空中打击",
+            "description": "空军对敌方指挥中心和补给线进行精确打击，并提供空中支援，压制敌方火力。"
+          }
+        ]
+      },
+      "creator": "美国国防部",
+      "case_id": "666be9ec3ac1da5b551dee5f",
+      "create_time": "2024-06-14 14:57:48",
+      "update_time": "2024-06-14 14:57:48",
+      "updater": "美国国防部"
+    }
+  },
+  {
+    "id": "666be9ec3ac1da5b551dee7c",
+    "document": {
+      "simulation": {
+        "name": "闪电风暴",
+        "complexity": "高",
+        "difficulty": "非常困难",
+        "description": "闪电风暴行动是一场模拟1967年六日战争关键战役的军事演习，旨在测试以色列国防军的快速反应和多战线作战能力。",
+        "environment": "沙漠与山地",
+        "our_forces": "以色列国防军",
+        "enemy_forces": "阿拉伯联军",
+        "tactical_simulation": [
+          {
+            "style": "空中打击",
+            
+            "detail": "对敌方空军进行先发制人的空袭，确保制空权"
+          },
+          {
+            "style": "地面突击",
+            
+            "detail": "在多个战线展开地面攻势，迅速突破敌方防线"
+          },
+          {
+            "style": "联合行动",
+            
+            "detail": "协调空中与地面部队的联合行动，确保战斗的有效性和快速推进"
+          }
+        ]
+      },
+      "plan": {
+        "name": "闪电风暴行动第一阶段",
+        "datetime": "2024-04-18",
+        "location": "西奈半岛及戈兰高地",
+        "description": "本阶段旨在通过以色列国防军的先发制人空袭和地面突击，在晴朗的35摄氏度白天，在西奈半岛及戈兰高地的敌方防御区迅速控制关键区域，削弱敌方的作战能力。目标是埃及和叙利亚的大型规模军事基地和指挥中心，包括埃及第3军和叙利亚第1军，通过摧毁敌方空军基地和指挥设施确保制空权。行动地点具体位于西奈半岛南部及戈兰高地，计划在2024年4月19日实施。",
+        "expert_tag": [
+          "空中打击专家",
+          "地面战专家"
+        ],
+        "operation_type": [],
+        "our_forces_detail": [
+          {
+            "group": "",
+            "unit": "",
+            "size": ""
+          }
+        ],
+        "enemy_forces_detail": [
+          {
+            "group": "",
+            "unit": "",
+            "size": ""
+          }
+        ],
+        "environment": {
+          "weather": "晴朗",
+          "temperature": "35摄氏度",
+          "day_night": "白天",
+          "target_state": "敌方防御区",
+          "sea_state": "无"
+        },
+        "target": {
+          "battle_target": "埃及和叙利亚的军事基地和指挥中心",
+          "target_size": "大型规模",
+          "battle_group": "埃及第3军和叙利亚第1军",
+          "damage_target": "摧毁敌方空军基地和指挥设施，确保制空权",
+          "loc_detail": "西奈半岛南部及戈兰高地",
+          "time": "2024-04-19"
+        },
+        "action": [
+          {
+            "name": "先发制人空袭",
+            "description": "空军对埃及和叙利亚的空军基地进行精确打击，摧毁敌方战斗机和防空系统。"
+          },
+          {
+            "name": "地面突击",
+            "description": "地面部队在西奈半岛和戈兰高地发起快速突击，突破敌方防线，控制关键区域。"
+          }
+        ]
+      },
+      "creator": "以色列国防部",
+      "case_id": "666be9ec3ac1da5b551dee6d",
+      "create_time": "2024-06-14 14:57:48",
+      "update_time": "2024-06-14 14:57:48",
+      "updater": "以色列国防部"
+    }
+  },
+  {
+    "id": "666be9ec3ac1da5b551dee7d",
+    "document": {
+      "simulation": {
+        "name": "雪崩行动",
+        "complexity": "中等",
+        "difficulty": "中等",
+        "description": "雪崩行动是一场模拟2008年格鲁吉亚战争关键战役的军事演习，旨在测试俄罗斯军队在南奥塞梯地区的快速反应和防御能力。",
+        "environment": "山区与城市",
+        "our_forces": "俄罗斯军队",
+        "enemy_forces": "格鲁吉亚军队",
+        "tactical_simulation": [
+          {
+            "style": "防御作战",
+            
+            "detail": "阻止格鲁吉亚军队的进攻，保卫南奥塞梯的战略要地"
+          },
+          {
+            "style": "空中支援",
+            
+            "detail": "利用空降部队和空中支援，增强地面部队的防御能力"
+          },
+          {
+            "style": "城市战",
+            
+            "detail": "在城市环境中进行防御和反击作战"
+          }
+        ]
+      },
+      "plan": {
+        "name": "雪崩行动第一阶段",
+        "datetime": "2024-04-18",
+        "location": "南奥塞梯",
+        "description": "本阶段旨在通过防御作战和空中支援，在晴朗的25摄氏度白天，在南奥塞梯边境地区阻止格鲁吉亚军队的进攻，并确保南奥塞梯的安全和稳定。目标是格鲁吉亚军队的中型规模前沿进攻部队，包括格鲁吉亚第4步兵旅和第2旅，通过削弱其进攻能力，保护南奥塞梯的主要城市和基础设施。行动地点具体位于南奥塞梯边境地区，计划在2024年4月19日实施。",
+        "expert_tag": [
+          "防御作战专家",
+          "空中支援专家"
+        ],
+        "operation_type": [],
+        "our_forces_detail": [
+          {
+            "group": "",
+            "unit": "",
+            "size": ""
+          }
+        ],
+        "enemy_forces_detail": [
+          {
+            "group": "",
+            "unit": "",
+            "size": ""
+          }
+        ],
+        "environment": {
+          "weather": "晴朗",
+          "temperature": "25摄氏度",
+          "day_night": "白天",
+          "target_state": "敌方进攻部队",
+          "sea_state": "无"
+        },
+        "target": {
+          "battle_target": "格鲁吉亚军队的前沿进攻部队",
+          "target_size": "中型规模",
+          "battle_group": "格鲁吉亚第4步兵旅和第2旅",
+          "damage_target": "削弱格鲁吉亚军队的进攻能力，保护南奥塞梯的主要城市和基础设施",
+          "loc_detail": "南奥塞梯边境地区",
+          "time": "2024-04-19"
+        },
+        "action": [
+          {
+            "name": "边境防御",
+            "description": "在南奥塞梯边境地区布置防线，阻止格鲁吉亚军队的进攻，保护当地居民和基础设施。"
+          },
+          {
+            "name": "空中支援与空降作战",
+            "description": "部署第76空降师进行空中支援和空降作战，增强地面部队的防御能力，打击敌方进攻部队。"
+          }
+        ]
+      },
+      "creator": "俄罗斯国防部",
+      "case_id": "666be9ec3ac1da5b551dee5d",
+      "create_time": "2024-06-14 14:57:48",
+      "update_time": "2024-06-14 14:57:48",
+      "updater": "俄罗斯国防部"
+    }
+  },
+  {
+    "id": "666be9ec3ac1da5b551dee7e",
+    "document": {
+      "simulation": {
+        "name": "滑铁卢行动",
+        "complexity": "高",
+        "difficulty": "高",
+        "description": "滑铁卢行动模拟1815年滑铁卢战役的关键战斗场景，旨在测试第七联盟军和法国军队在复杂战场环境下的战略和战术运用。",
+        "environment": "丘陵与田野",
+        "our_forces": "第七联盟军",
+        "enemy_forces": "法国军队",
+        "tactical_simulation": [
+          {
+            "style": "联合防御",
+            
+            "detail": "威灵顿公爵的英军与布吕歇尔的普鲁士军队联合防御，击退拿破仑的进攻"
+          },
+          {
+            "style": "迂回包围",
+            
+            "detail": "利用普鲁士军队的迂回包围，袭击法国军队的侧翼和后方"
+          },
+          {
+            "style": "前线突破",
+            
+            "detail": "通过集中火力和炮兵支援，在关键时刻突破法国军队的防线"
+          }
+        ]
+      },
+      "plan": {
+        "name": "滑铁卢行动第一阶段",
+        "datetime": "2024-04-18",
+        "location": "滑铁卢，布鲁塞尔南部",
+        "description": "本阶段重点在于模拟威灵顿公爵和布吕歇尔指挥的联合防御行动，在阴雨天气下，温度为18摄氏度的白天，位于滑铁卢，布鲁塞尔南部。旨在确保第七联盟军在滑铁卢的防线稳固，阻止拿破仑指挥的法国军队的进攻。目标是削弱法国军队的大型规模进攻能力，包括拿破仑的军队，保护滑铁卢地区的联盟军防线稳固。行动计划在2024年4月19日实施，包括前线防御和布吕歇尔的普鲁士军队进行的侧翼迂回行动，袭击法国军队的侧翼和后方，扰乱敌方的攻势",
+        "expert_tag": [
+          "联合防御专家",
+          "迂回包围专家"
+        ],
+        "operation_type": [],
+        "our_forces_detail": [
+          {
+            "group": "",
+            "unit": "",
+            "size": ""
+          }
+        ],
+        "enemy_forces_detail": [
+          {
+            "group": "",
+            "unit": "",
+            "size": ""
+          }
+        ],
+        "environment": {
+          "weather": "阴雨",
+          "temperature": "18摄氏度",
+          "day_night": "白天",
+          "target_state": "敌方进攻部队",
+          "sea_state": "无"
+        },
+        "target": {
+          "battle_target": "拿破仑指挥的法国军队",
+          "target_size": "大型规模",
+          "battle_group": "拿破仑的军队",
+          "damage_target": "削弱法国军队的进攻能力，确保第七联盟军的防线稳固",
+          "loc_detail": "滑铁卢地区",
+          "time": "2024-04-19"
+        },
+        "action": [
+          {
+            "name": "前线防御",
+            "description": "在滑铁卢地区布置防线，集中火力击退法国军队的进攻，确保联盟军的阵地稳固。"
+          },
+          {
+            "name": "侧翼迂回",
+            "description": "布吕歇尔的普鲁士军队进行侧翼迂回，袭击法国军队的侧翼和后方，扰乱敌方的攻势。"
+          }
+        ]
+      },
+      "creator": "第七联盟军司令部",
+      "case_id": "666be9ec3ac1da5b551dee67",
+      "create_time": "2024-06-14 14:57:48",
+      "update_time": "2024-06-14 14:57:48",
+      "updater": "第七联盟军司令部"
+    }
+  },
+  {
+    "id": "666be9ec3ac1da5b551dee7f",
+    "document": {
+      "simulation": {
+        "name": "斯大林格勒行动",
+        "complexity": "高",
+        "difficulty": "高",
+        "description": "斯大林格勒行动模拟1942年至1943年斯大林格勒战役的关键战斗场景，旨在测试苏联红军和德军在复杂城市战环境下的战略和战术运用。",
+        "environment": "城市战与工业区",
+        "our_forces": "苏联红军",
+        "enemy_forces": "德军",
+        "tactical_simulation": [
+          {
+            "style": "巷战防御",
+            
+            "detail": "利用城市巷战，苏联红军在斯大林格勒市区构建坚固防线，逐步削弱德军攻势"
+          },
+          {
+            "style": "战略反攻",
+            
+            "detail": "通过伏尔加河的补给线和预备队，苏联红军在关键时刻发动大规模反攻，包围并歼灭德军"
+          },
+          {
+            "style": "空中与炮火支援",
+            
+            "detail": "利用苏联空军和炮兵对德军进行持续轰炸和炮击，削弱其战斗力"
+          }
+        ]
+      },
+      "plan": {
+        "name": "斯大林格勒行动第一阶段",
+        "datetime": "2024-04-18",
+        "location": "斯大林格勒，苏联",
+        "description": "本阶段重点在于模拟苏联红军在斯大林格勒市区的巷战防御行动，在严寒的白天，气温为-10摄氏度的环境下。旨在确保斯大林格勒的城市防线稳固，逐步消耗德军第6集团军的大型规模进攻力量。行动计划包括城市巷战防御和战略反攻准备。苏联红军将在斯大林格勒市区布置防线，利用城市建筑和工厂设施进行防御，逐步削弱德军的进攻力量。同时调动预备队和补给线，为下一阶段的大规模反攻做好准备，确保反攻时机成熟",
+        "expert_tag": [
+          "巷战防御专家",
+          "战略反攻专家"
+        ],
+        "operation_type": [],
+        "our_forces_detail": [
+          {
+            "group": "",
+            "unit": "",
+            "size": ""
+          }
+        ],
+        "enemy_forces_detail": [
+          {
+            "group": "",
+            "unit": "",
+            "size": ""
+          }
+        ],
+        "environment": {
+          "weather": "严寒",
+          "temperature": "-10摄氏度",
+          "day_night": "白天",
+          "target_state": "敌方进攻部队",
+          "sea_state": "无"
+        },
+        "target": {
+          "battle_target": "德军第6集团军",
+          "target_size": "大型规模",
+          "battle_group": "德军",
+          "damage_target": "削弱德军的进攻能力，确保苏联红军在斯大林格勒的防线稳固",
+          "loc_detail": "斯大林格勒市区",
+          "time": "2024-04-19"
+        },
+        "action": [
+          {
+            "name": "城市巷战防御",
+            "description": "在斯大林格勒市区布置防线，利用城市建筑和工厂设施进行防御，逐步削弱德军的进攻力量。"
+          },
+          {
+            "name": "战略反攻准备",
+            "description": "调动预备队和补给线，为下一阶段的大规模反攻做好准备，确保反攻时机成熟。"
+          }
+        ]
+      },
+      "creator": "苏联红军总司令部",
+      "case_id": "666be9ec3ac1da5b551dee60",
+      "create_time": "2024-06-14 14:57:48",
+      "update_time": "2024-06-14 14:57:48",
+      "updater": "苏联红军总司令部"
+    }
+  },
+  {
+    "id": "666be9ec3ac1da5b551dee80",
+    "document": {
+      "simulation": {
+        "name": "葛底斯堡行动",
+        "complexity": "高",
+        "difficulty": "高",
+        "description": "葛底斯堡行动模拟1863年美国内战中著名的葛底斯堡战役，旨在测试联邦军和邦联军在复杂战场环境下的战略和战术运用。",
+        "environment": "乡村战与丘陵地形",
+        "our_forces": "联邦军",
+        "enemy_forces": "邦联军",
+        "tactical_simulation": [
+          {
+            "style": "防御作战",
+            
+            "detail": "联邦军利用葛底斯堡的地形优势，构建坚固防线，逐步消耗邦联军的攻势"
+          },
+          {
+            "style": "集中兵力反攻",
+            
+            "detail": "在关键时刻集中兵力进行反攻，争取战略主动权，迫使邦联军撤退"
+          },
+          {
+            "style": "火炮与步兵协同",
+            
+            "detail": "利用联邦军的火炮优势对邦联军进行持续轰击，并配合步兵进攻，削弱其战斗力"
+          }
+        ]
+      },
+      "plan": {
+        "name": "葛底斯堡行动第一阶段",
+        "datetime": "2024-04-18",
+        "location": "葛底斯堡，宾夕法尼亚州",
+        "description": "本阶段重点在于模拟联邦军在宾夕法尼亚州葛底斯堡的乡村防御作战，天气晴朗，气温为25摄氏度，白天进行。旨在确保葛底斯堡市区的联邦军防线稳固，逐步削弱邦联军北弗吉尼亚军的大型规模进攻力量。行动计划包括乡村防御作战和集中兵力反攻准备。联邦军将在葛底斯堡地区布置防线，利用丘陵和森林进行防御，逐步削弱邦联军的进攻力量。同时调动预备队和补给线，为下一阶段的集中反攻做好准备，确保反攻时机成熟",
+        "expert_tag": [
+          "防御作战专家",
+          "集中兵力反攻专家"
+        ],
+        "operation_type": [],
+        "our_forces_detail": [
+          {
+            "group": "",
+            "unit": "",
+            "size": ""
+          }
+        ],
+        "enemy_forces_detail": [
+          {
+            "group": "",
+            "unit": "",
+            "size": ""
+          }
+        ],
+        "environment": {
+          "weather": "晴",
+          "temperature": "25摄氏度",
+          "day_night": "白天",
+          "target_state": "敌方进攻部队",
+          "sea_state": "无"
+        },
+        "target": {
+          "battle_target": "邦联军北弗吉尼亚军",
+          "target_size": "大型规模",
+          "battle_group": "邦联军",
+          "damage_target": "削弱邦联军的进攻能力，确保联邦军在葛底斯堡的防线稳固",
+          "loc_detail": "葛底斯堡市区",
+          "time": "2024-04-19"
+        },
+        "action": [
+          {
+            "name": "乡村防御作战",
+            "description": "在葛底斯堡地区布置防线，利用丘陵和森林进行防御，逐步削弱邦联军的进攻力量。"
+          },
+          {
+            "name": "集中兵力反攻准备",
+            "description": "调动预备队和补给线，为下一阶段的集中反攻做好准备，确保反攻时机成熟。"
+          }
+        ]
+      },
+      "creator": "联邦军司令部",
+      "case_id": "666be9ec3ac1da5b551dee66",
+      "create_time": "2024-06-14 14:57:48",
+      "update_time": "2024-06-14 14:57:48",
+      "updater": "联邦军司令部"
+    }
+  },
+  {
+    "id": "666be9ec3ac1da5b551dee81",
+    "document": {
+      "simulation": {
+        "name": "马拉松行动",
+        "complexity": "中",
+        "difficulty": "中",
+        "description": "马拉松行动模拟公元前490年希波战争中马拉松战役的关键战斗场景，旨在测试雅典和普拉提亚联军在平原地形的战略和战术应对能力。",
+        "environment": "开阔平原",
+        "our_forces": "希腊城邦联军",
+        "enemy_forces": "波斯帝国军队",
+        "tactical_simulation": [
+          {
+            "style": "集中阵型",
+            
+            "detail": "联军利用集中阵型和深度防御策略，以抵挡波斯帝国军队的进攻。"
+          },
+          {
+            "style": "分段进攻",
+            
+            "detail": "联军通过分段进攻和战术反击，试图消耗波斯军队的战斗力，并寻找战机反击。"
+          },
+          {
+            "style": "快速机动",
+            
+            "detail": "在战场动态变化时，联军采用快速机动战术，调整战线并发动突袭。"
+          }
+        ]
+      },
+      "plan": {
+        "name": "马拉松行动第一阶段",
+        "datetime": "2024-04-18",
+        "location": "马拉松平原",
+        "description": "本阶段重点在于模拟雅典和普拉提亚联军在马拉松平原的马拉松行动第一阶段，天气晴朗，气温为25摄氏度，白天进行。旨在通过集中阵型和分段进攻策略，确保波斯帝国军队大流士的军队无法突破联军的防线。行动计划包括集中阵型和分段进攻，联军将在马拉松平原集中兵力，采取阵地防御，利用地形优势抵挡波斯军队的进攻。同时通过分段进攻和战术反击，耗费波斯帝国军队的战斗力，并寻找反击时机，以确保联军在马拉松平原的胜利。",
+        "expert_tag": [
+          "防御战术专家",
+          "战术反击专家"
+        ],
+        "operation_type": [],
+        "our_forces_detail": [
+          {
+            "group": "",
+            "unit": "",
+            "size": ""
+          }
+        ],
+        "enemy_forces_detail": [
+          {
+            "group": "",
+            "unit": "",
+            "size": ""
+          }
+        ],
+        "environment": {
+          "weather": "晴朗",
+          "temperature": "25摄氏度",
+          "day_night": "白天",
+          "target_state": "波斯帝国军队大流士的军队",
+          "sea_state": "无"
+        },
+        "target": {
+          "battle_target": "波斯帝国军队大流士的军队",
+          "target_size": "中型规模",
+          "battle_group": "波斯帝国军队",
+          "damage_target": "耗尽波斯帝国军队的战斗力，确保联军在马拉松平原的胜利。",
+          "loc_detail": "马拉松平原",
+          "time": "2024-04-19"
+        },
+        "action": [
+          {
+            "name": "集中阵型",
+            "description": "联军在马拉松平原集中兵力，采取阵地防御，利用地形优势抵挡波斯军队的进攻。"
+          },
+          {
+            "name": "分段进攻",
+            "description": "通过分段进攻和战术反击，耗费波斯帝国军队的战斗力，并寻找反击时机。"
+          }
+        ]
+      },
+      "creator": "雅典战争委员会",
+      "case_id": "666be9ec3ac1da5b551dee5f",
+      "create_time": "2024-06-14 14:57:48",
+      "update_time": "2024-06-14 14:57:48",
+      "updater": "雅典战争委员会"
+    }
+  },
+  {
+    "id": "666be9ec3ac1da5b551dee82",
+    "document": {
+      "simulation": {
+        "name": "特拉法加行动",
+        "complexity": "高",
+        "difficulty": "中",
+        "description": "特拉法加行动模拟1805年10月21日的特拉法加战役，旨在重现英国皇家海军与法国西班牙联合舰队之间的决定性海战场景。这场战役被认为是拿破仑战争中英国海军历史上最重要的胜利之一。",
+        "environment": "海上",
+        "our_forces": "英国皇家海军",
+        "enemy_forces": "法国西班牙联合舰队",
+        "tactical_simulation": [
+          {
+            "style": "分列冲击",
+            
+            "detail": "模拟霍雷肖·纳尔逊海军上将将英国舰队分列两列，直接冲向敌方联合舰队中心的战术。"
+          },
+          {
+            "style": "机动包围",
+            
+            "detail": "英国舰队通过机动包围战术，迅速在海上形成包围网，限制敌方联合舰队的活动空间。"
+          },
+          {
+            "style": "火力优势",
+            
+            "detail": "利用火力优势，英国舰队有选择地集中火力打击敌方舰船，有效削弱其战斗力。"
+          }
+        ]
+      },
+      "plan": {
+        "name": "特拉法加行动第一阶段",
+        "datetime": "2024-04-18",
+        "location": "特拉法加角附近",
+        "description": "本阶段旨在重点模拟霍雷肖·纳尔逊海军上将在1805年10月21日的特拉法加角海战中的特拉法加行动第一阶段。天气晴朗，海况平静，白天进行。特拉法加行动模拟英国皇家海军与法国西班牙联合舰队之间的决定性海战场景，旨在测试英国舰队的分列冲击战术和机动包围战术。行动计划包括分列冲击，英国舰队分列两列，直接冲向敌方联合舰队中心，采取大胆的前进战术。同时通过机动包围，迅速形成包围网，限制法国和西班牙联合舰队的活动空间，确保击败其，稳固英国对海上的控制权。",
+        "expert_tag": [
+          "海战专家",
+          "舰队指挥官"
+        ],
+        "operation_type": [],
+        "our_forces_detail": [
+          {
+            "group": "",
+            "unit": "",
+            "size": ""
+          }
+        ],
+        "enemy_forces_detail": [
+          {
+            "group": "",
+            "unit": "",
+            "size": ""
+          }
+        ],
+        "environment": {
+          "weather": "晴朗",
+          "sea_state": "平静",
+          "target_state": "法国和西班牙联合舰队",
+          "day_night": "轻微",
+          "temperature": "0.5米"
+        },
+        "target": {
+          "battle_target": "法国和西班牙联合舰队",
+          "target_size": "大型规模",
+          "battle_group": "法国和西班牙联合舰队",
+          "damage_target": "确保击败法国和西班牙联合舰队，稳固英国对海上的控制权。",
+          "loc_detail": "特拉法加角附近",
+          "time": "2024-04-19"
+        },
+        "action": [
+          {
+            "name": "分列冲击",
+            "description": "英国舰队分列两列，直接冲向敌方联合舰队中心，采取大胆的前进战术。"
+          },
+          {
+            "name": "机动包围",
+            "description": "通过迅速机动，英国舰队形成包围网，限制法国和西班牙联合舰队的活动空间。"
+          }
+        ]
+      },
+      "creator": "英国海军部",
+      "case_id": "666be9ec3ac1da5b551dee66",
+      "create_time": "2024-06-14 14:57:48",
+      "update_time": "2024-06-14 14:57:48",
+      "updater": "英国海军部"
+    }
+  },
+  {
+    "id": "666be9ec3ac1da5b551dee83",
+    "document": {
+      "simulation": {
+        "name": "中途岛战役模拟",
+        "complexity": "高",
+        "difficulty": "高",
+        "description": "中途岛战役模拟重现了1942年6月4日至6月7日的太平洋战争中的关键海战场景。这场战役被认为是二战中最重要的海战之一，标志着美国在太平洋战场上获得了重要的战略优势。",
+        "environment": "海上",
+        "our_forces": "美国海军",
+        "enemy_forces": "日本帝国海军",
+        "tactical_simulation": [
+          {
+            "style": "情报优势",
+            
+            "detail": "美国通过破译日本密码，获得了战略情报优势，提前做出了部署，为战斗的成功奠定了基础。"
+          },
+          {
+            "style": "舰队布置",
+            
+            "detail": "美国太平洋舰队采取合理的舰队布置和战术部署，有效地迎击了日本的进攻。"
+          },
+          {
+            "style": "空中打击",
+            
+            "detail": "美国航空母舰通过空中打击，精确摧毁了日本帝国海军的多艘航空母舰，削弱了其海上作战能力。"
+          }
+        ]
+      },
+      "plan": {
+        "name": "中途岛战役模拟第一阶段",
+        "datetime": "2024-04-18",
+        "location": "中途岛附近的太平洋海域",
+        "description": "本阶段模拟了1942年6月4日至6月7日的中途岛战役中美国太平洋舰队的关键战斗行动。天气晴朗，海况平静，白天进行。中途岛战役模拟重现了美国海军通过情报优势、合理的舰队布置和精确的空中打击，成功摧毁日本帝国海军的多艘航空母舰，削弱其海上作战能力的关键战斗场景。行动计划包括利用情报优势，提前了解日本的作战计划和舰队布置，有针对性地进行战斗准备；通过合理的舰队布置，集中优势力量对日本舰队发起攻击；以及利用美国航空母舰的空中打击，精确打击日本的航空母舰，确保战斗的胜利。",
+        "expert_tag": [
+          "海战专家",
+          "舰队指挥官"
+        ],
+        "operation_type": [],
+        "our_forces_detail": [
+          {
+            "group": "",
+            "unit": "",
+            "size": ""
+          }
+        ],
+        "enemy_forces_detail": [
+          {
+            "group": "",
+            "unit": "",
+            "size": ""
+          }
+        ],
+        "environment": {
+          "weather": "晴朗",
+          "sea_state": "平静",
+          "target_state": "日本帝国海军",
+          "day_night": "轻微",
+          "temperature": "0.5米"
+        },
+        "target": {
+          "battle_target": "日本帝国海军",
+          "target_size": "大型规模",
+          "battle_group": "第一机动舰队",
+          "damage_target": "确保成功摧毁日本的航空母舰，削弱其海上作战能力。",
+          "loc_detail": "中途岛附近的太平洋海域",
+          "time": "2024-04-19"
+        },
+        "action": [
+          {
+            "name": "情报优势",
+            "description": "利用成功破译的日本密码，美国提前了解了日本的作战计划和舰队布置，有针对性地进行了战斗准备。"
+          },
+          {
+            "name": "舰队布置",
+            "description": "美国太平洋舰队合理布置战斗编队，通过集中优势力量对日本舰队发起攻击。"
+          },
+          {
+            "name": "空中打击",
+            "description": "美国航空母舰利用空中力量，精确打击日本的航空母舰，削弱其作战能力，确保战斗胜利。"
+          }
+        ]
+      },
+      "creator": "美国海军部",
+      "case_id": "666be9ec3ac1da5b551dee64",
+      "create_time": "2024-06-14 14:57:48",
+      "update_time": "2024-06-14 14:57:48",
+      "updater": "美国海军部"
+    }
+  },
+  {
+    "id": "666be9ec3ac1da5b551dee84",
+    "document": {
+      "simulation": {
+        "name": "阿金库尔战役模拟",
+        "complexity": "高",
+        "difficulty": "高",
+        "description": "阿金库尔战役模拟重现了1415年10月25日英法百年战争中的经典战役场景。在兵力劣势下，英军凭借地形和长弓手的优势，取得了对法国军队的压倒性胜利。",
+        "environment": "陆地",
+        "our_forces": "英军",
+        "enemy_forces": "法军",
+        "tactical_simulation": [
+          {
+            "style": "长弓火力",
+            
+            "detail": "英军充分利用长弓手的射击优势，对密集的法国贵族骑士造成了重大伤亡，削弱了法军的战斗力。"
+          },
+          {
+            "style": "地形优势",
+            
+            "detail": "英军选择在狭窄的阿金库尔地区作战，利用地形限制法军的骑兵优势，从而有效地阻止了法军的冲击。"
+          },
+          {
+            "style": "指挥策略",
+            
+            "detail": "亨利五世军队采用了灵活的指挥策略，有效地组织和指挥了战斗中的各个部队，充分发挥了每个部队的优势。"
+          }
+        ]
+      },
+      "plan": {
+        "name": "阿金库尔战役模拟第一阶段",
+        "datetime": "2024-04-18",
+        "location": "阿金库尔",
+        "description": "晴朗天气下，2024年4月18日，阿金库尔地区，英军在狭窄地区展开了阿金库尔战役模拟第一阶段。本阶段模拟了英军充分利用长弓火力和地形优势对抗大规模的法国军队。重点分析了长弓火力如何有效地对密集的法国贵族骑士造成重大伤亡，削弱了法军的战斗力，并利用地形限制了法军的骑兵优势，从而有效地阻止了法军的冲击。目标是确保成功击溃法国军队，展示英军的战略和战术优势。",
+        "expert_tag": [
+          "战役模拟专家",
+          "军事历史研究员"
+        ],
+        "operation_type": [],
+        "our_forces_detail": [
+          {
+            "group": "",
+            "unit": "",
+            "size": ""
+          }
+        ],
+        "enemy_forces_detail": [
+          {
+            "group": "",
+            "unit": "",
+            "size": ""
+          }
+        ],
+        "environment": {
+          "weather": "晴朗",
+          "day_night": "狭窄地区",
+          "target_state": "法国军队",
+          "temperature": "温和",
+          "sea_state": "良好"
+        },
+        "target": {
+          "battle_target": "法国军队",
+          "target_size": "大型规模",
+          "battle_group": "法军主力",
+          "damage_target": "确保成功击溃法国军队，展示英军的战略和战术优势。",
+          "loc_detail": "阿金库尔地区",
+          "time": "2024-04-19"
+        },
+        "action": [
+          {
+            "name": "长弓火力",
+            "description": "英军长弓手在狭窄地区展开射击，有效地对密集的法国贵族骑士造成重大伤亡，削弱了法军的战斗力。"
+          },
+          {
+            "name": "地形优势",
+            "description": "英军利用阿金库尔狭窄的地形限制法军的骑兵优势，从而有效地阻止了法军的冲击。"
+          },
+          {
+            "name": "指挥策略",
+            "description": "亨利五世军队采用了灵活的指挥策略，充分发挥了各个部队的优势，确保了战斗的胜利。"
+          }
+        ]
+      },
+      "creator": "英王亨利五世军部",
+      "case_id": "666be9ec3ac1da5b551dee5c",
+      "create_time": "2024-06-14 14:57:48",
+      "update_time": "2024-06-14 14:57:48",
+      "updater": "英王亨利五世军部"
+    }
+  }
+]
