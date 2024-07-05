@@ -6,7 +6,7 @@ import os
 import json
 from langchain_openai import ChatOpenAI
 
-os.environ["OPENAI_API_KEY"] = "sk-FdRhcsnAOevePNvruOQsEBL8UFZqEUZr65yN4bXodyJlYaeM"
+# os.environ["OPENAI_API_KEY"] = "sk-FdRhcsnAOevePNvruOQsEBL8UFZqEUZr65yN4bXodyJlYaeM"
 # os.environ["OPENAI_API_KEY"] = "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"
 
 llm = ChatOpenAI()
