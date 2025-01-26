@@ -42,7 +42,7 @@ for tick in cbar.ax.get_yticklabels():
     tick.set_rotation(0)  # 可选：旋转角度
 
 # 图表美化
-plt.title("Performance of the Model with Various Numbers of Words in Prompts", fontsize=16, fontweight='bold')
+# plt.title("Performance of the Model with Various Numbers of Words in Prompts", fontsize=16, fontweight='bold')
 plt.xlabel("Number of Words in a Prompt", fontsize=14, fontweight='bold')
 plt.ylabel("F1-Score", fontsize=14, fontweight='bold')
 plt.xticks(np.arange(100, 501, 50), fontsize=12, fontweight='bold')
